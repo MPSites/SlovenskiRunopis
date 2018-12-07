@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="favicon/favicon.ico">
+		<meta name="description" content="Словенска митологија,древна предања о магији и заштити од ње, митска бића и митска места непозната многима и Све мрачне кутке српске митологије и њених становника...">
+		<meta name="keywords" content="Slovenska-mitologija,mitska-bica,Perun,Srpska-mitologija,vile,zmajevi">
+		<meta name="author" content="Miloš-Parezanović">
+		<title>Словенски Рунопис - илустрације</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body class="ilustracije">
+
+		<div class="site ilu">
+			<div class="frontPic">
+				<img class="rune" src="img/headText.png" alt="slovenski runopis">
+			</div>
+			<div class="menu">
+				<ul>
+					<li>
+						<a  href="index.html"><span>КЊИГЕ</span></a>
+					</li>
+					<li>
+						<a class="first" href="ilustracije"><span>ИЛУСТРАЦИЈЕ</span></a>
+					</li>
+					<li>
+						<a href="odlomci.html"><span>ОДЛОМЦИ</span></a>
+					</li>
+					<li>
+						<a href="oAutoru.html"><span>О АУТОРУ</span></a>
+					</li>
+					<li>
+						<a href="dokumentacija.pdf"><span>ДОКУМЕНТАЦИЈА</span></a>
+					</li>
+				</ul>
+			</div>
+					 
+			<div class="slideshowBox">
+			  <div class="sliderPic fade">
+				<img src="img/zaglavlje1.jpg">
+			  </div>
+
+			  <div class="sliderPic fade">
+				<img src="img/zaglavlje2.jpg">
+			  </div>
+
+			  <div class="sliderPic fade">
+				<img src="img/zaglavlje3.jpg">
+			  </div>
+			  <div class="sliderPic fade">
+				<img src="img/zaglavlje4.jpg">
+				<div class="picText">Змај</div>
+			  </div> 
+			</div>
+			<div class="sliderDot" style="text-align:center">
+				  <span class="dugmeSlider"></span>
+				  <span class="dugmeSlider"></span>
+				  <span class="dugmeSlider"></span>
+				  <span class="dugmeSlider"></span>
+			</div>
+			<div id="gallery">
+				<div class="galleryCon">
+					<div class="col">
+					
+						<div class="gBox"><img src="img/gb1.png"></div>
+						<div class="gBox"><img src="img/gb2.png"></div>
+						<div class="gBox"><img src="img/gb3.png"></div>
+						<div class="gBox"><img src="img/gb4.png"></div>
+						<div class="gBox"><img src="img/gb5.png"></div>
+						<div class="gBox"><img src="img/gb6.png"></div>
+						<div class="gBox"><img src="img/fbox.png"></div>
+						<div class="gBox"><img src="img/gb8.png"></div>
+						<div class="gBox"><img src="img/gb9.png"></div>
+						<div class="gBox"><img src="img/gb10.png"></div>
+						<div class="fullBox">
+							<img src="img/fbox.png">
+						</div>
+						<div class="cleaner">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="slikari">
+				<p><em>Књиге о митским бићима српског предања: водењацима, русалкама, супеницама, усуду, таласонима, морама, здухачима, дивовима, патуљцима и многим другима... </em></p>
+				<p><em>Први пут пет врхунских сликара и илустратора (Ивица Стевановић, Милош Вујановић, Петар Меселџија, Драган Бабин и Вања Тодорић) у различитим ликовним техникама (уље на платну,јајчана темпера, акварел ...) успева да оживи ова фантастична бића којима прети ишчезнуће. </em></p>
+			</div>
+		</div>
+			<button id="upBtn" ></button>
+			
+		<footer id="futer">
+			<div id="futerbar">
+				<ul>
+					<li><a href="index.html">КЊИГЕ</a><span></span></li>
+					<li><a href="ilustracije.html">ИЛУСТРАЦИЈЕ</a><span></span></li>
+					<li><a href="odlomci.html">ОДЛОМЦИ</a><span></span></span></li>
+					<li><a href="oAutoru.html">О АУТОРУ</a></li>
+					<li><a href="dokumentacija.pdf"><span>ДОКУМЕНТАЦИЈА</span></a></li>
+				</ul>
+			</div>
+			<div class="futerp">
+				<p>&copy; 2018 МИЛОШ ПАРЕЗАНОВИЋ РУНОПИС, СВА ПРАВА РЕЗЕРВИСАНА.</p>
+				<p>All trademarks referenced herein are the properties of their respective owners.</p>
+			</div>
+		</footer>
+		<script>var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+					var i;
+					var slides = document.getElementsByClassName("sliderPic");
+					var dots = document.getElementsByClassName("dugmeSlider");
+					for (i = 0; i < slides.length; i++) {
+					   slides[i].style.display = "none";  
+					}
+					slideIndex++;
+					if (slideIndex > slides.length) {slideIndex = 1}    
+					for (i = 0; i < dots.length; i++) {
+						dots[i].className = dots[i].className.replace(" active", "");
+					}
+					slides[slideIndex-1].style.display = "block";  
+					dots[slideIndex-1].className += " active";
+					setTimeout(showSlides, 3000);
+				}
+		</script>
+		<script src="scripts/scriptJQ.js"></script>
+		<script src="scripts/scriptScroll.js"></script>
+	</body>
+</html>
