@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc></loc>
+		<loc>https://mpsites.github.io/SlovenskiRunopis/index.html</loc>
 		<lastmod>2018-12-1/</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc></loc>
+		<loc>https://mpsites.github.io/SlovenskiRunopis/ilustracije.html</loc>
 		<lastmod>2018-12-4</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc></loc>
+		<loc>https://mpsites.github.io/SlovenskiRunopis/odlomci.html</loc>
 		<lastmod>2018-12-6</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc></loc>
-		<lastmod>2018-12-5</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.7</priority>
-	</url>
-	<url>
-		<loc></loc>
+		<loc>https://mpsites.github.io/SlovenskiRunopis/oAutoru.html</loc>
 		<lastmod>2018-12-7</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.5</priority>
