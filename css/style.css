@@ -822,11 +822,9 @@ body{
 .music{
 	margin: 0px auto;
 	width:90%;
-	height:39px;
 	display:flex;
 	flex-direction:column;
 	justify-content: space-around;
-	margin-bottom:10px;
 }
 
 .music p em {
@@ -843,11 +841,6 @@ body{
 	border-radius:10px;
 	margin: 0px auto;
 	margin-bottom:5%;
-}
-
-.music {
-	margin-top:100px;
-	margin-right:70px;
 }
 
 .linkovi {
