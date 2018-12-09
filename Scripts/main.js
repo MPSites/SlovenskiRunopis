@@ -13,7 +13,7 @@ window.onload = function() {
         var prezimeError = document.querySelector("#lnError");
         var datumError = document.querySelector("#birDateError");
 
-        var reDatRodjenja =  /^(19[\d]{2}|20(0[\d]|1[0-8]))\-(0[1-9]|1[012])\-(0[1-9]|[12][\d]|3[01])$/;
+        var reDatRodjenja =  /^(19[\d]{2}|20(0[\d]|1[0-8]))[\-\.](0[1-9]|1[012])[\-\.](0[1-9]|[12][\d]|3[01])$/;
         var reIme = /^[A-Z][a-z]{2,11}$/;
         var rePrezime = /^[A-Z][a-z]{2,15}$/;
  
