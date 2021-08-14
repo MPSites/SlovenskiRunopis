@@ -6,3 +6,6 @@ This is a purely static website made for my second school assignment, for the su
 Tools used:
 
 HTML, CSS, JavaScript and JQuery
+
+You can access the website via this link:<br/>
+https://mpsites.github.io/SlovenskiRunopis
